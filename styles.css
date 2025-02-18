@@ -1,0 +1,115 @@
+/* styles.css - Resume Styling */
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 40px auto;
+  max-width: 900px;
+  line-height: 1.8;
+  background: #f4f8fb;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #3c6382;
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+a {
+  color: #3c6382;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #60a3bc;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #3c6382;
+  border-bottom: 3px solid #60a3bc;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #3c6382;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 35px;
+  padding: 20px;
+  background: #ffffff;
+  border-left: 6px solid #60a3bc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-weight: bold;
+  color: #3c6382;
+  font-size: 1.2em;
+}
+
+.job-info {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+ul.skills-list {
+  list-style: none;
+  padding-left: 0;
+  columns: 2;
+  column-gap: 40px;
+}
+
+ul.skills-list li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Added link styling for better navigation */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-size: 1.2em;
+}
